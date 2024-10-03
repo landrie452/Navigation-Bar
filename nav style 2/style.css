@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #24252A;
+}
+nav{
+    display:flex;
+    justify-content: end;
+    align-items:center;
+    width: 100%;
+    max-width:900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a,li,button{
+    font-family: Monserrat, sans-serif;
+    font-size:15px;
+    font-weight:500;
+    color:white;
+    text-decoration:none;
+    
+}
+
+span{
+    color: rgb(119, 119, 119);
+    margin-right:auto;
+}
+
+a button{
+    background-color:#00c3ff;
+    padding:8px 20px;
+    border-radius: 15px;
+    border:none;
+    margin-left:25px;
+    font-weight: 600;
+
+}
+.nav-links ul{
+    display:flex;
+    list-style-type:none;
+}
+.nav-links li{
+    padding:15px 25px;
+}
